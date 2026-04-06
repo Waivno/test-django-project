@@ -13,7 +13,7 @@ class ProductStatsView(APIView):  # отображает статистику п
     def get(self, request):
         total_users = User.objects.count()
         if total_users == 0:
-            purchase_rate_value = 0
+            purchase_rate_value = Value(0)
         else:
             purchase_rate_value = F('students') / total_users * 100
         
