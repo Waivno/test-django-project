@@ -1,6 +1,6 @@
 from django.urls import path
 
-from b_test.myapp.views import ProductStatsView
+from myapp.views import ProductStatsView
 
 urlpatterns = [
 

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from models import Lesson, LessonViewStatus
+from mystu.models import Lesson, LessonViewStatus
 
 class LessonViewStatusSerializer(serializers.ModelSerializer):
     class Meta:
