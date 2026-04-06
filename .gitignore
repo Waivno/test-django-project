@@ -1,6 +1,1 @@
-  *.pyc
-  *~
-  __pycache__
-  myvenv
-  db.sqlite3
-  .DS_Store
+Nothing needs to be added to .gitignore since only a Python source file (`myapp/views.py`) was modified and no build artifacts, dependencies, or temporary files were included in the changes.

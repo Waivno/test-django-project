@@ -1,9 +1,9 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from models import Lesson
-from serializers import LessonSerializer
-from b_test.myapp.models import Product, ProductAccess
+from mystu.models import Lesson
+from mystu.serializers import LessonSerializer
+from myapp.models import Product, ProductAccess
 # from myapp.serializers import ProductSerializer
 class LessonsView(APIView):#  отображает все уроки, к которым пользователь имеет доступ
 
